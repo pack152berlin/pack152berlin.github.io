@@ -28,8 +28,8 @@ permalink: /events/
 }
 .calendar-table th, .calendar-table td {
     width: 14.28%;
-    min-width: 90px;
-    max-width: 120px;
+    min-width: 110px; /* was 90px */
+    max-width: 150px; /* was 120px */
     height: 90px;
     min-height: 90px;
     vertical-align: top;
@@ -37,13 +37,16 @@ permalink: /events/
     padding: 6px 4px 4px 4px;
     position: relative;
     font-size: 0.97em;
-    word-break: break-word;
+    word-break: normal;         /* Prevent mid-word breaks */
+    overflow-wrap: break-word;  /* Break at word boundaries */
+    font-family: 'Open Sans', 'Segoe UI', Arial, sans-serif;
 }
 .calendar-table th {
-    background: #ffd100;
-    color: #003366;
+    background: linear-gradient(120deg, #000428, #004e92) !important;
+    color: #fff !important;
     font-weight: 700;
     font-size: 1rem;
+    border-bottom: 2px solid #ffd100;
 }
 .event-day {
     color: #0055a4;
@@ -63,7 +66,10 @@ permalink: /events/
     border-radius: 6px;
     margin-bottom: 2px;
     padding: 2px 6px;
-    font-size: 0.93em;
+    font-size: 0.92em; /* slightly smaller */
+    word-break: normal;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans', 'Segoe UI', Arial, sans-serif;
 }
 .calendar-table td.today {
     border: 2px solid #0055a4;
