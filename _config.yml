@@ -1,0 +1,25 @@
+# _config.yml
+title: Pack 152 Berlin
+description: Official website for Pack 152 Berlin
+url: "https://pack152berlin.github.io"
+baseurl: ""
+theme: "jekyll-theme-airspace"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages settings
+github:
+  is_project_page: true
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - README.md
+  - LICENSE.md
+
+# Build settings
+markdown: kramdown
