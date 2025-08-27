@@ -10,7 +10,7 @@ permalink: /events/
 .calendar-container {
     width: max-content;
     min-width: 100%;
-    max-width: 100vw;
+    max-width: 90vw;
     margin: 2rem auto;
     background: #fff;
     padding: 2rem;
