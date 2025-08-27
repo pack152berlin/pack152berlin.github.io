@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Cub Scout Pack 152 • Berlin, Germany
 permalink: /
 ---
