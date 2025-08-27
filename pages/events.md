@@ -8,9 +8,7 @@ permalink: /events/
 
 <style>
 .calendar-container {
-    width: max-content;
-    min-width: 90%;
-    max-width: 90vw;
+    max-width: 700px;
     margin: 2rem auto;
     background: #fff;
     padding: 2rem;
