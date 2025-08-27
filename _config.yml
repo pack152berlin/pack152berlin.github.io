@@ -8,7 +8,7 @@ plugins:
   - jekyll-remote-theme
 
 # Use the Airspace theme hosted on GitHub
-remote_theme: themefisher/airspace-jekyll
+remote_theme: themefisher/northendlab-jekyll
 
 plugins:
   - jekyll-feed
