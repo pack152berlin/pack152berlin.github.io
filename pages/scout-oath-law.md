@@ -4,19 +4,6 @@ title: Scout Oath & Law
 permalink: /scout-oath-law/
 ---
 
-<img src="/assets/cubscouts.webp" alt="Cub Scouts Logo" style="max-width:120px; vertical-align:middle;">
-# Pack 152 Berlin
-
-**Cub Scouts • Scouting America**
-
-<nav>
-[Home](/)
-[Events Calendar](/pages/events.html)
-[Scoutbook](/scoutbook/)
-[Contact](/contact/)
-[Scout Oath & Law](/scout-oath-law/)
-</nav>
-
 ## Scout Oath
 
 > On my honor, I will do my best  

@@ -4,8 +4,6 @@ title: Cub Scout Pack 152 • Berlin, Germany
 permalink: /
 ---
 
-{% include nav.html %}
-
 <div class="hero">
   <div class="hero__inner">
     <h1>Pack 152 Berlin</h1>

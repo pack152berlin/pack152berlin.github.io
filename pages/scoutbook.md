@@ -4,19 +4,6 @@ title: Scoutbook
 permalink: /scoutbook/
 ---
 
-<img src="/assets/cubscouts.webp" alt="Cub Scouts Logo" style="max-width:120px; vertical-align:middle;">
-# Pack 152 Berlin
-
-**Cub Scouts • Scouting America**
-
-<nav>
-[Home](/)
-[Events Calendar](/pages/events.html)
-[Scoutbook](/scoutbook/)
-[Contact](/contact/)
-[Scout Oath & Law](/scout-oath-law/)
-</nav>
-
 ## Scoutbook: Track Advancement & Stay Connected
 
 **Scoutbook** is the official tool for Cub Scout families to track advancement, communicate with leaders, and stay up to date with Pack 152. Parents can view their scout’s progress, sign off on requirements, and receive important updates from the pack.

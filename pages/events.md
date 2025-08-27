@@ -4,8 +4,6 @@ title: Events Calendar
 permalink: /events/
 ---
 
-{% include nav.html %}
-
 ## 2025–2026 Events Calendar
 
 <style>
