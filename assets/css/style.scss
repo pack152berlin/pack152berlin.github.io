@@ -82,11 +82,7 @@ a:hover, a:focus {
   .features { grid-template-columns: 1fr; }
 }
 
-.main-content {
-  min-width: 0;
-  overflow-x: auto;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0 1rem;
+.site-footer-credits {
+  display: block;
+  text-align: center;
 }
