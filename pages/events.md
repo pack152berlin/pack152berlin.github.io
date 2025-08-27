@@ -309,5 +309,3 @@ document.getElementById("nextMonth").onclick = () => showMonth(1);
 // --- Initial Render ---
 renderCalendar(current.getFullYear(), current.getMonth());
 </script>
-
-{% include footer.html %}

@@ -27,6 +27,3 @@ The **Scoutbook app** is available for both iOS and Android devices. The app wor
 - [Get it on Google Play](https://play.google.com/store/apps/details?id=com.boyscouts.scoutbook)
 
 For a helpful overview, see the [Parent’s Trail Guide to Scoutbook](https://help.scoutbook.scouting.org/knowledge-base/parents-trail-guide-to-scoutbook/).
-
-<footer>
-&copy; 2025 Pack 152 Berlin •

@@ -48,5 +48,3 @@ Our scouts discover the wonders of Berlin—from the **Museum Island** and **Ger
 <div style="font-weight:700; color:#0055a4; text-align:center; margin-top:2rem;">
 Join us as we adventure, learn, and lead—together!
 </div>
-
-{% include footer.html %}

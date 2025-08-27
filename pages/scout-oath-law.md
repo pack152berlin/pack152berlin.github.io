@@ -38,6 +38,3 @@ A Scout is **Trustworthy**,
 **Brave**,  
 **Clean**,  
 and **Reverent**.
-
-<footer>
-&copy; 2025 Pack 152 Berlin • Scouting America
