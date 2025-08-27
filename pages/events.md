@@ -36,7 +36,7 @@ permalink: /events/
     border: 1px solid #eee;
     padding: 6px 2px 4px 2px;
     position: relative;
-    font-size: 0.93em;
+    font-size: 0.93rem; /* changed from em to rem */
     word-break: normal;         /* Prevent mid-word breaks */
     overflow-wrap: break-word;  /* Break at word boundaries */
     font-family: 'Open Sans', 'Segoe UI', Arial, sans-serif;
@@ -45,20 +45,20 @@ permalink: /events/
     background: linear-gradient(120deg, #000428, #004e92) !important;
     color: #fff !important;
     font-weight: 700;
-    font-size: 0.93em;
+    font-size: 0.93rem; /* changed from em to rem */
     border-bottom: 2px solid #ffd100;
 }
 .event-day {
     color: #0055a4;
     font-weight: bold;
-    font-size: 0.93em;
+    font-size: 0.93rem; /* changed from em to rem */
     margin-right: 4px;
 }
 .event-list {
     margin: 0.5em 0 0 0;
     padding: 0;
     list-style: none;
-    font-size: 0.93em;
+    font-size: 0.93rem; /* changed from em to rem */
 }
 .event-list li {
     background: #e6f0fa;
@@ -66,7 +66,7 @@ permalink: /events/
     border-radius: 6px;
     margin-bottom: 2px;
     padding: 2px 6px;
-    font-size: 0.90em; /* slightly smaller */
+    font-size: 0.90rem; /* changed from em to rem */
     word-break: normal;
     overflow-wrap: break-word;
     font-family: 'Open Sans', 'Segoe UI', Arial, sans-serif;
@@ -80,10 +80,10 @@ permalink: /events/
         max-width: 80px;
         height: 70px;
         min-height: 70px;
-        font-size: 0.85em;
+        font-size: 0.85rem; /* changed from em to rem */
     }
     .event-list li {
-        font-size: 0.85em;
+        font-size: 0.85rem; /* changed from em to rem */
     }
 }
 </style>
