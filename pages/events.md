@@ -8,7 +8,9 @@ permalink: /events/
 
 <style>
 .calendar-container {
-    max-width: 700px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     margin: 2rem auto;
     background: #fff;
     padding: 2rem;
@@ -94,22 +96,24 @@ permalink: /events/
         <span id="calendarMonth"></span>
         <button id="nextMonth" aria-label="Next Month">&gt;</button>
     </div>
-    <table class="calendar-table">
-        <thead>
-            <tr>
-                <th>Sun</th>
-                <th>Mon</th>
-                <th>Tue</th>
-                <th>Wed</th>
-                <th>Thu</th>
-                <th>Fri</th>
-                <th>Sat</th>
-            </tr>
-        </thead>
-        <tbody id="calendarBody">
-            <!-- Calendar will be rendered here -->
-        </tbody>
-    </table>
+    <div style="overflow-x:auto;">
+        <table class="calendar-table">
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody id="calendarBody">
+                <!-- Calendar will be rendered here -->
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <script>
