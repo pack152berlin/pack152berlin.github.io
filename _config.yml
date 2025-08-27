@@ -1,9 +1,15 @@
 # _config.yml
-title: Pack 152 Berlin
-description: Official website for Pack 152 Berlin
+title: Cub Scouts Pack 152 - Berlin, Germany
+description: Official website for Cub Scouts Pack 152 - Berlin, Germany
 url: "https://pack152berlin.github.io"
 baseurl: ""
-theme: "jekyll-theme-airspace"
+
+plugins:
+  - jekyll-remote-theme
+
+# Use the Airspace theme hosted on GitHub
+remote_theme: themefisher/airspace-jekyll
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -23,3 +29,7 @@ exclude:
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+# (Recommended) Set your timezone
+timezone: Europe/Berlin
