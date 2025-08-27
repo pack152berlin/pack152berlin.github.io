@@ -1,21 +1,10 @@
 ---
-layout: page
+layout: default
 title: Events Calendar
 permalink: /events/
 ---
 
-<img src="/assets/cubscouts.webp" alt="Cub Scouts Logo" style="max-width:120px; vertical-align:middle;">
-# Pack 152 Berlin
-
-**Cub Scouts • Scouting America**
-
-<nav>
-[Home](/)
-[Events Calendar](/events/)
-[Scoutbook](/scoutbook/)
-[Contact](/contact/)
-[Scout Oath & Law](/scout-oath-law/)
-</nav>
+{% include nav.html %}
 
 ## 2025–2026 Events Calendar
 
@@ -321,5 +310,4 @@ document.getElementById("nextMonth").onclick = () => showMonth(1);
 renderCalendar(current.getFullYear(), current.getMonth());
 </script>
 
-<footer>
-&copy; 2025 Pack 152 Berlin
+{% include footer.html %}

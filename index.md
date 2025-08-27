@@ -1,23 +1,34 @@
 ---
-layout: home
-title: Pack 152 Berlin
+layout: default
+title: Cub Scout Pack 152 • Berlin, Germany
 permalink: /
 ---
 
-<header>
-<img src="/assets/cubscouts.webp" alt="Cub Scouts Logo" style="max-width:120px; vertical-align:middle;">
-# Pack 152 Berlin
+{% include nav.html %}
 
-**Cub Scouts • Scouting America**
+<div class="hero">
+  <div class="hero__inner">
+    <h1>Pack 152 Berlin</h1>
+    <p>Building character, citizenship, and outdoor skills—one adventure at a time.</p>
+    <a class="btn" href="{{ '/events/' | relative_url }}">See Upcoming Events</a>
+  </div>
+</div>
 
-<nav>
-[Home](/)
-[Events Calendar](/pages/events.html)
-[Scoutbook](/scoutbook/)
-[Contact](/contact/)
-[Scout Oath & Law](/scout-oath-law/)
-</nav>
-</header>
+<div class="features">
+  <div class="feature">
+    <h3>Join the Pack</h3>
+    <p>New to Scouting? We welcome all families. Start with a visit to a den meeting and say hello.</p>
+  </div>
+  <div class="feature">
+    <h3>Learn by Doing</h3>
+    <p>Hikes, service projects, STEM fun, and camping—hands-on adventures for every Scout.</p>
+  </div>
+  <div class="feature">
+    <h3>Family Friendly</h3>
+    <p>Parents and siblings are part of the journey. We plan activities with the whole family in mind.</p>
+  </div>
+</div>
+
 
 ## Our Mission
 
@@ -38,5 +49,4 @@ Our scouts discover the wonders of Berlin—from the **Museum Island** and **Ger
 Join us as we adventure, learn, and lead—together!
 </div>
 
-<footer>
-&copy; 2025 Pack 152 Berlin • Scouting
+{% include footer.html %}

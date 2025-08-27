@@ -4,11 +4,7 @@ description: Official website for Cub Scouts Pack 152 - Berlin, Germany
 url: "https://pack152berlin.github.io"
 baseurl: ""
 
-plugins:
-  - jekyll-remote-theme
-
-# Use the Airspace theme hosted on GitHub
-remote_theme: themefisher/northendlab-jekyll
+theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-feed
@@ -33,3 +29,4 @@ permalink: pretty
 
 # (Recommended) Set your timezone
 timezone: Europe/Berlin
+email: pack152berlin@gmail.com

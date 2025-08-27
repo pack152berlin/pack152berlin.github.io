@@ -1,0 +1,81 @@
+---
+# This front matter makes Jekyll process the file and lets us import the theme.
+---
+
+/* Import Cayman, then override */
+@import "{{ site.theme }}";
+
+/* === THEME TWEAKS === */
+
+/* (1) Header gradient override (Cayman uses .page-header) */
+.page-header {
+  background-image: linear-gradient(120deg, #000428, #004e92) !important;
+}
+
+/* (2) Typography and link color tweaks */
+body {
+  color: #0f172a; /* deeper body text */
+}
+a {
+  color: #1d4ed8; /* richer link color */
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* === SHARED NAV BAR === */
+.site-nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  background: #f8fafc;
+}
+.site-nav a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* === HERO SECTION ===
+   Place an image at /assets/img/hero.jpg (any 1800x600+ works nicely) */
+.hero {
+  margin: 1rem 0 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("{{ '/assets/img/hero.jpg' | relative_url }}") center/cover no-repeat;
+  color: #fff;
+}
+.hero__inner {
+  padding: 4rem 1.25rem;
+  text-align: center;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .6rem 1rem;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+/* === 3-COLUMN FEATURES === */
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.feature {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+}
+@media (max-width: 900px) {
+  .features { grid-template-columns: 1fr; }
+}
