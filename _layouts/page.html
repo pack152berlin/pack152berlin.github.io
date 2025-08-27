@@ -11,10 +11,58 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <style>
+      .page-header-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+      .page-header-flex .header-left {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .page-header-flex .header-left h2 {
+        margin: 0;
+        text-align: left;
+        white-space: nowrap;
+      }
+      .page-header-flex .header-left img {
+        max-height: 48px;
+        width: auto;
+      }
+      .page-header-flex nav {
+        margin-left: auto;
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: flex-end;
+      }
+      @media (max-width: 700px) {
+        .page-header-flex {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 0.5rem;
+        }
+        .page-header-flex .header-left {
+          justify-content: flex-start;
+        }
+        .page-header-flex nav {
+          justify-content: flex-start;
+        }
+      }
+    </style>
   </head>
   <body>
     <header class="page-header" role="banner">
-      <h2 class="project-tagline">CUB SCOUTS PACK 152, BERLIN</h2><img src="{{ '/assets/img/fleur-de-lis small.png' | relative_url }}" alt="Scouting America Fleur-de-lis logo" /> {% include nav.html %}
+      <div class="page-header-flex">
+        <div class="header-left">
+          <h2 class="project-tagline">CUB SCOUTS PACK 152, BERLIN</h2>
+          <img src="{{ '/assets/img/fleur-de-lis small.png' | relative_url }}" alt="Scouting America Fleur-de-lis logo" />
+        </div>
+        {% include nav.html %}
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
