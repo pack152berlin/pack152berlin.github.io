@@ -48,7 +48,7 @@ a:hover, a:focus {
   /* border-radius: 12px; */
   overflow: hidden;
   background:
-    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
     url("{{ '/assets/img/hero.png' | relative_url }}") center/cover no-repeat;
   color: #fff;
 }
