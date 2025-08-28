@@ -44,17 +44,20 @@ a:hover, a:focus {
 /* === HERO SECTION ===
    Place an image at /assets/img/hero.jpg (any 1800x600+ works nicely) */
 .hero {
-  margin: 1rem 0 2rem;
-  border-radius: 12px;
+  /* margin: 1rem 0 2rem;
+  /* border-radius: 12px; */
   overflow: hidden;
   background:
     linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    url("{{ '/assets/img/hero.jpg' | relative_url }}") center/cover no-repeat;
+    url("{{ '/assets/img/hero.png' | relative_url }}") center/cover no-repeat;
   color: #fff;
 }
 .hero__inner {
   padding: 4rem 1.25rem;
   text-align: center;
+}
+.hero h1 {
+  color: #fff;
 }
 .hero .btn {
   display: inline-block;

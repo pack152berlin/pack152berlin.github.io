@@ -6,9 +6,9 @@ permalink: /
 
 <div class="hero">
   <div class="hero__inner">
-    <h1>Pack 152 Berlin</h1>
-    <p>Building character, citizenship, and outdoor skills—one adventure at a time.</p>
-    <a class="btn" href="{{ '/events/' | relative_url }}">See Upcoming Events</a>
+    <h1>Adventure in the heart of Berlin.</h1>
+    <p>Explore. Learn. Lead.</p>
+    <a class="btn" href="{{ '/join-us/' | relative_url }}">Join Us!</a><a class="btn" href="{{ '/events/' | relative_url }}">See Upcoming Events</a>
   </div>
 </div>
 
