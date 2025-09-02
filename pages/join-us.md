@@ -4,6 +4,11 @@ title: Join Pack 152!
 permalink: /join-us/
 ---
 
+<div style="background-color: #e6f0fa; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; text-align: center;">
+<strong>Questions? Want to visit a meeting?</strong><br>
+Email us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> – we're friendly and love talking about Scouts! 😊
+</div>
+
 ## Welcome to Cub Scouting!
 
 Cub Scouting is a fun, educational program designed for youth in kindergarten through fifth grade (typically ages 5-10). It's built around hands-on activities, outdoor adventures, and character development that help young people grow into confident, caring, and responsible individuals.
