@@ -6,8 +6,6 @@ permalink: /join-us/
 
 ## Information about joining Pack 152
 
-Text goes here
+Email us at [pack152berlin@gmail.com](mailto:pack152berlin@gmail.com), we're friendly!
 
-## Another header
-
-More text
+Also, check our [Events Calendar](/events/) for upcoming meetings and activities.
