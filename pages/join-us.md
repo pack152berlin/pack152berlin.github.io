@@ -43,16 +43,16 @@ Each rank has specific adventures and requirements that scouts complete to advan
 ## Meeting Information
 
 - **Den Meetings**: Small group meetings focused on age-appropriate activities and advancement
-  - **When**: Every other Tuesday from 4pm – 5pm during the school year
-  - **Where**: John F. Kennedy School Large Aula, Zehlendorf, Berlin
+  - *When*: Every other Tuesday from 4pm – 5pm during the school year
+  - *Where*: John F. Kennedy School Large Aula, Zehlendorf, Berlin
 
 - **Pack Events**: Larger group activities including campouts, service projects, and special events
-  - **When**: Monthly during the school year on a weekend day
-  - **Where**: Activity-dependent, usually outdoors, at a museum, or learning site
+  - *When*: Monthly during the school year on a weekend day
+  - *Where*: Activity-dependent, usually outdoors, at a museum, or learning site
 
 - **Campouts**: Larger multi-day events for the whole family.
-  - **When**: Two or three times per year, as per the [Events Calendar](/events/)
-  - **Where**: Camp sites around Berlin, or in Germany for district-wide events
+  - *When*: Two or three times per year, as per the [Events Calendar](/events/)
+  - *Where*: Camp sites around Berlin, or in Germany for district-wide events
 
 ## Getting Started
 
