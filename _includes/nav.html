@@ -1,3 +1,22 @@
 <nav class="site-nav">
-  <a href="{{ '/' | relative_url }}">Home</a> | <a href="{{ '/events/' | relative_url }}">Events</a> | <a href="{{ '/contact/' | relative_url }}">Contact</a> | <a href="{{ '/scout-oath-law/' | relative_url }}">Scout Oath & Law</a> | <a href="{{ '/scoutbook/' | relative_url }}">Scoutbook</a>
+  <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="main-menu">
+    <span class="menu-btn__icon" aria-hidden="true">
+      <span class="menu-btn__bar"></span>
+      <span class="menu-btn__bar"></span>
+      <span class="menu-btn__bar"></span>
+    </span>
+    <span class="menu-btn__text">Menu</span>
+  </button>
+  <ul class="main-menu" id="main-menu" hidden>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a href="{{ '/events/' | relative_url }}">Events</a></li>
+    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+    <li class="has-submenu">
+      <button class="submenu-btn" aria-haspopup="true" aria-expanded="false">About Scouting</button>
+      <ul class="submenu" hidden>
+        <li><a href="{{ '/scout-oath-law/' | relative_url }}">Scout Oath & Law</a></li>
+        <li><a href="{{ '/scoutbook/' | relative_url }}">Scoutbook</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
