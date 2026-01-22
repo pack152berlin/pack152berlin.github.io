@@ -1,11 +1,3 @@
----
-layout: page
-title: Events
-permalink: /events/
----
-
-Looking for dates and meeting times? See our [Calendar]({{ '/calendar/' | relative_url }}).
-
 ## **What Is the Pinewood Derby?**
 
 The **Pinewood Derby** is one of the most exciting and time-honored traditions in **Cub Scouting**\! Each year, Cub Scouts receive an **Official Pinewood Derby® car kit** and team up with an adult partner to turn a block of wood into a one-of-a-kind race car.
@@ -57,8 +49,8 @@ Please remember:
 * Maximum car height (including wheels): **3 inches**  
 * Final car weight is set at check-in using our **official scale**
 
-Have more detailed questions?
-View our **complete Pinewood Derby rules**: [Pack152PWDRules.pdf]({{ '/assets/Pack152PWDRules.pdf' | relative_url }})
+Have more detailed questions?  
+View our **complete Pinewood Derby rules** (link)
 
 A quick reminder: the Pinewood Derby exists outside of Scouting, so online advice may not apply. All cars must follow **our Pack’s rules**.
 
@@ -66,7 +58,7 @@ A quick reminder: the Pinewood Derby exists outside of Scouting, so online advic
 
 Race Day is where the fun really zooms\!
 
-**Car Check-In:** 2:15–2:45 PM
+**Car Check-In:** 2:15–2:45 PM 
 
 Please arrive on time. No cars will be accepted to the race after check-in.
 
@@ -97,3 +89,4 @@ Most Realistic Car
 
 Best Build  
 Every little part was carefully thought out—you can really see the hard work.
+

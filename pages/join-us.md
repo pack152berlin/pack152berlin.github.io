@@ -62,4 +62,8 @@ Each rank has specific adventures and requirements that scouts complete to advan
 
 **Step 3**: Complete registration and join the adventure!
 
-Also, check our [Events Calendar](/events/) for upcoming meetings and activities, including our regular den meetings and special events like campouts and service projects.
+## Ready to Join the Adventure?
+
+Email us at [{{ site.email }}](mailto:{{ site.email }}) - we're friendly and happy to answer any questions!
+
+Also, check our [Calendar]({{ '/calendar/' | relative_url }}) and [Events]({{ '/events/' | relative_url }}) pages for upcoming meetings and activities, including our regular den meetings and special events like campouts and service projects.
