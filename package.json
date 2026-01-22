@@ -1,0 +1,7 @@
+{
+  "name": "pack152berlin.github.io",
+  "private": true,
+  "scripts": {
+    "dev": "podman run --platform linux/amd64 --rm -p 4000:4000 -v \"$(pwd)\":/srv/jekyll:Z docker.io/jekyll/jekyll:pages sh -lc \"export HOME=/tmp && git config --global --add safe.directory /srv/jekyll && gem install webrick -N && jekyll serve --host 0.0.0.0 --watch --force_polling --destination /tmp/_site\""
+  }
+}

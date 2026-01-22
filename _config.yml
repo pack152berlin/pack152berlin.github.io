@@ -4,6 +4,8 @@ description: Official website for Cub Scouts Pack 152 - Berlin, Germany
 url: "https://pack152berlin.github.io"
 baseurl: ""
 
+repository: pack152berlin/pack152berlin.github.io
+
 theme: jekyll-theme-cayman
 
 plugins:
