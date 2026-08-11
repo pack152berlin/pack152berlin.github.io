@@ -6,6 +6,6 @@ permalink: /contact/
 
 ## Contact Us
 
-For any inquiries related to membership, events, Cub Scouts in general, or other related topics, please email us at [{{ site.email }}](mailto:{{ site.email }}).
+For membership questions, meeting visits, events, Cub Scouting questions, or general inquiries, please email us at [{{ site.email }}](mailto:{{ site.email }}).
 
-We look forward to hearing from you!
+New families are welcome to reach out before attending a meeting. We can help explain what to expect, which den fits your Scout, and how to get started.

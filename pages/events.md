@@ -6,6 +6,10 @@ permalink: /events/
 
 Looking for dates and meeting times? See our [Calendar]({{ '/calendar/' | relative_url }}).
 
+Pack 152 events help Scouts learn by doing. Throughout the year, families may take part in pack meetings, hikes, campouts, museum visits, service projects, ceremonies, and Scouting traditions like the Pinewood Derby.
+
+This page currently highlights one of our biggest annual traditions.
+
 ## **What Is the Pinewood Derby?**
 
 The **Pinewood Derby** is one of the most exciting and time-honored traditions in **Cub Scouting**\! Each year, Cub Scouts receive an **Official Pinewood Derby® car kit** and team up with an adult partner to turn a block of wood into a one-of-a-kind race car.
@@ -62,13 +66,11 @@ View our **complete Pinewood Derby rules**: [Pack152PWDRules.pdf]({{ '/assets/Pa
 
 A quick reminder: the Pinewood Derby exists outside of Scouting, so online advice may not apply. All cars must follow **our Pack’s rules**.
 
-## **Pinewood Derby Race Day – February 28**
+## **Pinewood Derby Race Day – February 13, 2027**
 
 Race Day is where the fun really zooms\!
 
-**Car Check-In:** 2:15–2:45 PM
-
-Please arrive on time. No cars will be accepted to the race after check-in.
+The car check-in time will be announced in pack communications. Please arrive within the announced check-in window; no cars can be accepted after check-in closes.
 
 What to expect:
 

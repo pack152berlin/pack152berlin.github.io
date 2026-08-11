@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Scoutbook
+title: Scoutbook Plus
 permalink: /scoutbook/
 ---
 
-## Scoutbook: Track Advancement & Stay Connected
+## Scoutbook Plus: Track Advancement and Stay Connected
 
-**Scoutbook** is the official tool for Cub Scout families to track advancement, communicate with leaders, and stay up to date with Pack 152. Parents can view their scout’s progress, sign off on requirements, and receive important updates from the pack.
+**Scoutbook Plus** is the official web-based tool for Cub Scout families to track advancement, communicate with leaders, and stay up to date with Pack 152. Parents can view their Scout’s progress, sign off on requirements, and receive important updates from the pack.
 
-The **Scoutbook app** is available for both iOS and Android devices. The app works offline, so you can manage and view advancement opportunities and adventures even during campouts or holidays—no internet required!
+Families can use Scoutbook Plus in a web browser on a phone, tablet, or computer.
 
-- [Download on the App Store (Apple)](https://apps.apple.com/us/app/scoutbook/id1448195155)
-- [Get it on Google Play](https://play.google.com/store/apps/details?id=com.boyscouts.scoutbook)
-
-For a helpful overview, see the [Parent’s Trail Guide to Scoutbook](https://help.scoutbook.scouting.org/knowledge-base/parents-trail-guide-to-scoutbook/).
+- [Open Scoutbook Plus](https://advancements.scouting.org/)
+- [Parents’ Guide to Scoutbook Plus](https://help.scoutbook.scouting.org/article-categories/advancement-quick-entry-internet-advancement-update/)

@@ -4,7 +4,9 @@ title: Calendar
 permalink: /calendar/
 ---
 
-## 2025–2026 Events Calendar
+## 2026–2027 Events Calendar
+
+Den meetings start at **4:30pm**. Pack meeting times are subject to venue availability and may change; please check pack communications for confirmation.
 
 <style>
 .calendar-container {
@@ -119,62 +121,41 @@ permalink: /calendar/
 <script>
 // --- Event Data ---
 const events = [
-    { date: "2025-09-02", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Join us for our regular Den Meeting. Scouts will work on advancement while participating in fun activities and learn new skills. Parents are welcome to attend." },
-    { date: "2025-09-16", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll work on advancement and enjoy team-building games." },
-    { date: "2025-09-30", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll work on advancement and enjoy team-building games." },
-    { date: "2025-10-14", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll be preparing for our upcoming campout. Parents, please attend for important info." },
-    { date: "2025-11-04", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll work on advancement and discuss upcoming events. Parents are welcome." },
-    { date: "2025-11-18", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll work on a service project for our community." },
-    { date: "2025-12-02", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. Holiday crafts and activities for all scouts." },
-    { date: "2025-12-16", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "End-of-year Den Meeting. We'll celebrate our achievements and enjoy snacks together." },
-    { date: "2026-01-06", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "First Den Meeting of the new year! We'll set goals and plan for upcoming adventures." },
-    { date: "2026-01-20", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. Focus on leadership and teamwork activities." },
-    { date: "2026-02-10", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll prepare for the Pinewood Derby and work on car designs." },
-    { date: "2026-02-24", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. Final touches for Pinewood Derby cars and practice races." },
-    { date: "2026-03-10", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll explore science experiments and STEM fun." },
-    { date: "2026-03-24", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll explore science experiments and STEM fun." },
-    { date: "2026-04-14", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. Outdoor games and nature exploration (weather permitting)." },
-    { date: "2026-04-28", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. Preparing for the Roller Activity at Tempelhofer Feld." },
-    { date: "2026-05-05", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. We'll discuss summer plans and review scout skills." },
-    { date: "2026-05-19", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. End-of-year review and awards." },
-    { date: "2026-06-02", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. Outdoor fun and games to celebrate the end of the school year." },
-    { date: "2026-06-16", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. Summer kickoff and planning for camp." },
-    { date: "2026-06-30", desc: "Den Meeting", time: "4pm – 5pm", location: "JFKS Large Aula", detail: "Den Meeting. Final meeting before summer break." },
-    { date: "2025-08-19", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers . We'll discuss the upcoming scouting year and volunteer opportunities." },
-    { date: "2025-09-09", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. Planning for the Camping and fall events." },
-    { date: "2025-10-07", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. Review of September events and preparation for October activities." },
-    { date: "2025-11-04", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. We'll discuss upcoming events and planning." },
-    { date: "2025-12-09", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. Holiday planning and service project review." },
-    { date: "2026-01-13", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. New year planning and Pinewood Derby logistics." },
-    { date: "2026-02-17", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. Finalize details for the Pinewood Derby and spring events." },
-    { date: "2026-03-10", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. Planning for spring events and activities." },
-    { date: "2026-04-21", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. Campout and crossover ceremony planning." },
-    { date: "2026-05-12", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. End-of-year wrap-up and feedback." },
-    { date: "2026-06-09", desc: "Committee Meeting", time: "8pm – 10pm", location: "Virtual", detail: "Committee Meeting for parent volunteers and leaders. Summer planning and volunteer appreciation." },
-    { date: "2025-07-27", desc: "Lakeside Hiking with swimming and picnic", time: "TBD", location: "TBD", detail: "Join us for a day of hiking, swimming, and a picnic by the lake! Bring swimwear, sunscreen, and a packed lunch. <br><img src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80' alt='Lakeside' style='max-width:100%;border-radius:8px;margin-top:8px;'>" },
-    { date: "2025-09-03", desc: "Info Fair", time: "TBD", location: "TBD", detail: "Visit our booth at the JFKS Info Fair to learn more about Pack 152 and Cub Scouts. Open to all current and prospective member families of JFKS students." },
-    { date: "2025-09-06", desc: "Open house", time: "2pm – 5pm", location: "Schönower Park next to JFK School, Zehlendorf", detail: "Open House for new and prospective scouts and families. Meet our leaders, learn about our program, and enjoy fun activities." },
-    { date: "2025-09-19", desc: "Welcome back Campout (Day 1)", time: "From 5pm", location: "<a href=\"https://zev-berlin.com\" target=\"_blank\">Zeltlagerplatz Heiligensee</a>", detail: "Annual Welcome Back Campout begins! Enjoy camping, campfire songs, and outdoor games. <br>Location: Grunewald Forest. <br>Bring your tent and camping gear." },
-    { date: "2025-09-20", desc: "Welcome back Campout (Day 2)", time: "All Day", location: "<a href=\"https://zev-berlin.com\" target=\"_blank\">Zeltlagerplatz Heiligensee</a>", detail: "Welcome Back Campout continues. More outdoor fun and activities." },
-    { date: "2025-09-21", desc: "Welcome back Campout (Day 3)", time: "Until noon", location: "<a href=\"https://zev-berlin.com\" target=\"_blank\">Zeltlagerplatz Heiligensee</a>", detail: "Final day of the Welcome Back Campout. Pack up and say goodbye until next time!" },
-    { date: "2025-10-03", desc: "Edelweiss Family campout (Day 1)", time: "See Event Link", location: "Camp Freedom, (Frankenkaserne) Munasiedlung Germany", detail: "Edelweiss District Family Campout. All Cub Scout Families welcome! <a href='https://scoutingevent.com/802-2025FALLEdelweissCubs' target='_blank'>Learn more</a>." },
-    { date: "2025-10-04", desc: "Edelweiss Family campout (Day 2)", time: "See Event Link", location: "Camp Freedom, (Frankenkaserne) Munasiedlung Germany", detail: "Edelweiss District Family Campout. All Cub Scout Families welcome! <a href='https://scoutingevent.com/802-2025FALLEdelweissCubs' target='_blank'>Learn more</a>." },
-    { date: "2025-10-05", desc: "Edelweiss Family campout (Day 3)", time: "See Event Link", location: "Camp Freedom, (Frankenkaserne) Munasiedlung Germany", detail: "Final day of the Edelweiss District Family Campout. <a href='https://scoutingevent.com/802-2025FALLEdelweissCubs' target='_blank'>Learn more</a>." },
-    { date: "2025-10-11", desc: "Hiking/Mauerpark, Bernauer str", time: "TBD", location: "TBD", detail: "Pack hike at Mauerpark and Bernauer Straße. Bring comfortable shoes and a snack." },
-    { date: "2025-10-17", desc: "JOTI (Day 1)", time: "TBD", location: "TBD", detail: "Jamboree on the Internet (JOTI) begins: Connect with scouts worldwide online! We'll have computers set up for chatting and games." },
-    { date: "2025-10-18", desc: "JOTI (Day 2)", time: "TBD", location: "TBD", detail: "JOTI continues. More online activities and global connections." },
-    { date: "2025-10-19", desc: "JOTI (Day 3)", time: "TBD", location: "TBD", detail: "Final day of JOTI. Share your experiences and say goodbye to new friends." },
-    { date: "2025-11-16", desc: "Museum Visit", time: "TBD", location: "TBD", detail: "Pack visit to the German Museum of Technology. Explore hands-on exhibits and learn about science and engineering." },
-    { date: "2025-12-06", desc: "Food Drive/Church service", time: "TBD", location: "TBD", detail: "Annual food drive and community service at the local church. Please bring non-perishable food items to donate." },
-    { date: "2026-01-24", desc: "Pit Stop", time: "TBD", location: "TBD", detail: "Pinewood Derby Pit Stop: Final car checks and practice runs before the big race!" },
-    { date: "2026-02-28", desc: "Pinewood Derby", time: "TBD", location: "TBD", detail: "Pinewood Derby Race Day! Bring your car and cheer on your fellow scouts. Prizes for speed and creativity." },
-    { date: "2026-03-21", desc: "Futurium Visit", time: "TBD", location: "TBD", detail: "Pack trip to the Futurium museum. Discover the future of science and technology. <a href='https://futurium.de/en' target='_blank'>Futurium Website</a>." },
-    { date: "2026-04-25", desc: "Roller Activity/Tempelhofer Feld", time: "TBD", location: "TBD", detail: "Roller skating and games at Tempelhofer Feld. Bring your skates or borrow a pair at the park." },
-    { date: "2026-05-22", desc: "Annual Campout (Day 1)", time: "TBD", location: "TBD", detail: "Our biggest campout of the year begins! Three nights of camping, hiking, and fun. Families welcome." },
-    { date: "2026-05-23", desc: "Annual Campout (Day 2)", time: "TBD", location: "TBD", detail: "Annual Campout continues. More outdoor fun and activities." },
-    { date: "2026-05-24", desc: "Annual Campout (Day 3)", time: "TBD", location: "TBD", detail: "Annual Campout continues. Campfire and group games." },
-    { date: "2026-05-25", desc: "Annual Campout (Day 4)", time: "TBD", location: "TBD", detail: "Final day of the Annual Campout. Pack up and say goodbye until next year!" },
-    { date: "2026-06-13", desc: "Crossover Ceremony", time: "TBD", location: "TBD", detail: "Celebrate our scouts moving up to the next rank. Ceremony followed by a picnic and games." }
+    { date: "2026-08-25", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2026-09-08", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2026-09-22", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2026-10-06", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2026-11-03", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2026-11-17", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2026-12-01", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2026-12-15", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-01-05", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-01-19", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-02-09", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-02-23", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-03-09", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-04-06", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-04-20", desc: "Den Meeting and Swim Test", time: "4:30pm", location: "Pool (details TBD)", detail: "Den meeting at a pool for the swim test. Please check pack communications for the confirmed location and what to bring." },
+    { date: "2027-05-04", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-05-25", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+    { date: "2027-06-08", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
+
+    { date: "2026-09-11", desc: "Pack Campout (Day 1)", time: "TBD", location: "TBD", detail: "Pack camping weekend. Check pack communications for arrival time, location, and packing information." },
+    { date: "2026-09-12", desc: "Pack Campout (Day 2)", time: "All day", location: "TBD", detail: "Pack camping weekend continues." },
+    { date: "2026-09-13", desc: "Pack Campout (Day 3)", time: "TBD", location: "TBD", detail: "Final day of the pack camping weekend. Check pack communications for departure time." },
+    { date: "2027-05-15", desc: "Pack Campout (Day 1)", time: "TBD", location: "TBD", detail: "Pack camping weekend. Check pack communications for arrival time, location, and packing information." },
+    { date: "2027-05-16", desc: "Pack Campout (Day 2)", time: "All day", location: "TBD", detail: "Pack camping weekend continues." },
+    { date: "2027-05-17", desc: "Pack Campout (Day 3)", time: "TBD", location: "TBD", detail: "Final day of the pack camping weekend. Check pack communications for departure time." },
+
+    { date: "2026-08-15", desc: "Ferry to Kladow", time: "2pm – 4pm", location: "Kladow (meeting point TBD)", detail: "Pack meeting and ferry outing. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2026-10-10", desc: "Pfaueninsel", time: "2:30pm – 5:30pm", location: "Pfaueninsel", detail: "Pack outing to Pfaueninsel. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2026-11-15", desc: "AlliiertenMuseum", time: "10:30am – 12:30pm", location: "AlliiertenMuseum", detail: "Pack visit to the AlliiertenMuseum. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2026-12-05", desc: "Food Drive and Christmas Party", time: "2pm – 6pm", location: "TBD", detail: "Pack food drive and Christmas party. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2027-01-09", desc: "Pinewood Derby Pit Stop", time: "2pm – 4pm", location: "TBD", detail: "Pinewood Derby pit stop for car checks and preparation. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2027-02-13", desc: "Pinewood Derby", time: "1pm – 5pm", location: "TBD", detail: "Pinewood Derby race day. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2027-03-13", desc: "Blue and Gold Dinner", time: "4pm – 6pm", location: "TBD", detail: "Pack Blue and Gold dinner. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2027-04-18", desc: "Service Project", time: "TBD", location: "TBD", detail: "Pack service project. Details will be announced in pack communications." },
+    { date: "2027-06-19", desc: "Year-End, Crossover, and Rank Ceremony", time: "4pm – 6pm", location: "TBD", detail: "Year-end celebration, crossover, and rank ceremony. Time is subject to availability; check pack communications for confirmation." }
 ];
 
 // --- Helper Functions ---

@@ -6,34 +6,48 @@ document.addEventListener('DOMContentLoaded', function () {
   const submenuBtn = document.querySelector('.submenu-btn');
   const submenu = document.querySelector('.submenu');
 
+  if (!menuBtn || !mainMenu) {
+    return;
+  }
+
   // Toggle main menu
   menuBtn.addEventListener('click', function () {
     const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
     menuBtn.setAttribute('aria-expanded', !expanded);
     mainMenu.hidden = expanded;
     if (!expanded) {
-      mainMenu.querySelector('a, .submenu-btn').focus();
+      const firstMenuItem = mainMenu.querySelector('a, .submenu-btn');
+      if (firstMenuItem) {
+        firstMenuItem.focus();
+      }
     }
   });
 
   // Toggle submenu
-  submenuBtn.addEventListener('click', function (e) {
-    e.stopPropagation();
-    const expanded = submenuBtn.getAttribute('aria-expanded') === 'true';
-    submenuBtn.setAttribute('aria-expanded', !expanded);
-    submenu.hidden = expanded;
-    if (!expanded) {
-      submenu.querySelector('a').focus();
-    }
-  });
+  if (submenuBtn && submenu) {
+    submenuBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      const expanded = submenuBtn.getAttribute('aria-expanded') === 'true';
+      submenuBtn.setAttribute('aria-expanded', !expanded);
+      submenu.hidden = expanded;
+      if (!expanded) {
+        const firstSubmenuItem = submenu.querySelector('a');
+        if (firstSubmenuItem) {
+          firstSubmenuItem.focus();
+        }
+      }
+    });
+  }
 
   // Close menus on outside click
   document.addEventListener('click', function (e) {
     if (!menuBtn.contains(e.target) && !mainMenu.contains(e.target)) {
       menuBtn.setAttribute('aria-expanded', 'false');
       mainMenu.hidden = true;
-      submenuBtn.setAttribute('aria-expanded', 'false');
-      submenu.hidden = true;
+      if (submenuBtn && submenu) {
+        submenuBtn.setAttribute('aria-expanded', 'false');
+        submenu.hidden = true;
+      }
     }
   });
 
@@ -42,8 +56,10 @@ document.addEventListener('DOMContentLoaded', function () {
     if (e.key === 'Escape') {
       menuBtn.setAttribute('aria-expanded', 'false');
       mainMenu.hidden = true;
-      submenuBtn.setAttribute('aria-expanded', 'false');
-      submenu.hidden = true;
+      if (submenuBtn && submenu) {
+        submenuBtn.setAttribute('aria-expanded', 'false');
+        submenu.hidden = true;
+      }
       menuBtn.focus();
     }
   });

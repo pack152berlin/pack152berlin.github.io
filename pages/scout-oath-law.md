@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Scout Oath & Law
+title: Scout Oath, Law, and Motto
 permalink: /scout-oath-law/
 ---
 
@@ -25,3 +25,11 @@ A Scout is **Trustworthy**,
 **Brave**,  
 **Clean**,  
 and **Reverent**.
+
+## Cub Scout Motto
+
+> Do Your Best.
+
+## Scout Slogan
+
+> Do a Good Turn Daily.

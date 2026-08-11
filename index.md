@@ -6,43 +6,47 @@ permalink: /
 
 <div class="hero">
   <div class="hero__inner">
-    <h1>Adventure in the heart of Berlin.</h1>
-    <p>Explore. Learn. Lead.</p>
-    <a class="btn" href="{{ '/join-us/' | relative_url }}">Join Us!</a><a class="btn" href="{{ '/calendar/' | relative_url }}">See Upcoming Events</a>
+    <h1>Welcome to Pack 152!</h1>
+    <p>Adventure, friendship, service, and family Scouting in Berlin.</p>
+    <a class="btn" href="{{ '/join-us/' | relative_url }}">Join Pack 152</a><a class="btn" href="{{ '/calendar/' | relative_url }}">See Upcoming Events</a>
   </div>
 </div>
 
 <div class="features">
   <div class="feature">
-    <h3>Join the Pack</h3>
-    <p>New to Scouting? We welcome all families. Start with a visit to a den meeting and say hello.</p>
+    <h3>Adventure</h3>
+    <p>Scouts learn by doing through hikes, campouts, hands-on projects, games, and Berlin-area outings.</p>
   </div>
   <div class="feature">
-    <h3>Learn by Doing</h3>
-    <p>Hikes, service projects, STEM fun, and camping—hands-on adventures for every Scout.</p>
+    <h3>Belonging</h3>
+    <p>Every young person and family should feel welcomed, respected, and valued.</p>
   </div>
   <div class="feature">
-    <h3>Family Friendly</h3>
-    <p>Parents and siblings are part of the journey. We plan activities with the whole family in mind.</p>
+    <h3>Family Participation</h3>
+    <p>Cub Scouting is a family program. Parents, guardians, and volunteers help make the pack thrive.</p>
   </div>
 </div>
 
+## Welcome to Pack 152!
 
-## Our Mission
+Our Pack is committed to providing a Scouting experience where every young person and family is welcomed, respected, and valued.
 
-**Pack 152 Berlin** is dedicated to helping our children grow as people, leaders, and scouts. Through hands-on exploration of our vibrant city, we encourage curiosity, teamwork, and respect for others and the world around us.
+We believe that Scouting is for everyone. We strive to create an environment where all Scouts can participate fully, develop confidence and leadership skills, build lasting friendships, and experience a sense of belonging.
 
-## Our Goals
+We treat one another with kindness, respect, and dignity, and we do not tolerate discrimination, harassment, or bullying. Guided by the Scout Oath and Scout Law, we are committed to fostering a community where every Scout can learn, grow, serve, and succeed.
 
-- **Personal Growth:** Building confidence and character through fun, challenging activities.
-- **Leadership:** Developing responsibility and teamwork in every scout.
-- **Adventure:** Exploring Berlin’s rich history, world-class **museums**, and beautiful **nature spaces** like the **Tiergarten** and **Grunewald Forest**.
-- **Community:** Connecting with local organizations and giving back to our neighborhoods.
+## What Cub Scouts Do
 
-## Why Berlin?
+- Explore the outdoors through hikes, campouts, and nature activities.
+- Build confidence and leadership through age-appropriate challenges.
+- Practice service by helping the pack, school, and wider community.
+- Learn practical skills through games, crafts, STEM activities, and ceremonies.
+- Build friendships with other families living in and around Berlin.
 
-Our scouts discover the wonders of Berlin—from the **Museum Island** and **German Museum of Technology** to the **Botanical Garden** and **Spree River** parks. Every outing is a chance to learn, grow, and make lasting memories.
+## Take the Next Step
+
+New families are welcome to visit a meeting before joining. No uniform or previous Scouting experience is needed to come say hello.
 
 <div style="font-weight:700; color:#0055a4; text-align:center; margin-top:2rem;">
-Join us as we adventure, learn, and lead—together!
+Join us as we learn, serve, lead, and grow together.
 </div>
