@@ -143,19 +143,30 @@ const events = [
     { date: "2026-09-11", desc: "Pack Campout (Day 1)", time: "TBD", location: "TBD", detail: "Pack camping weekend. Check pack communications for arrival time, location, and packing information." },
     { date: "2026-09-12", desc: "Pack Campout (Day 2)", time: "All day", location: "TBD", detail: "Pack camping weekend continues." },
     { date: "2026-09-13", desc: "Pack Campout (Day 3)", time: "TBD", location: "TBD", detail: "Final day of the pack camping weekend. Check pack communications for departure time." },
-    { date: "2027-05-15", desc: "Pack Campout (Day 1)", time: "TBD", location: "TBD", detail: "Pack camping weekend. Check pack communications for arrival time, location, and packing information." },
-    { date: "2027-05-16", desc: "Pack Campout (Day 2)", time: "All day", location: "TBD", detail: "Pack camping weekend continues." },
-    { date: "2027-05-17", desc: "Pack Campout (Day 3)", time: "TBD", location: "TBD", detail: "Final day of the pack camping weekend. Check pack communications for departure time." },
+    { date: "2027-05-06", desc: "Pack Campout (Day 1)", time: "TBD", location: "TBD", detail: "Pack campout. Check pack communications for arrival time, location, and packing information." },
+    { date: "2027-05-07", desc: "Pack Campout (Day 2)", time: "All day", location: "TBD", detail: "Pack campout continues." },
+    { date: "2027-05-08", desc: "Pack Campout (Day 3)", time: "All day", location: "TBD", detail: "Pack campout continues." },
+    { date: "2027-05-09", desc: "Pack Campout (Day 4)", time: "TBD", location: "TBD", detail: "Final day of the pack campout. Check pack communications for departure time." },
 
     { date: "2026-08-15", desc: "Ferry to Kladow", time: "2pm – 4pm", location: "Kladow (meeting point TBD)", detail: "Pack meeting and ferry outing. Time is subject to availability; check pack communications for confirmation." },
-    { date: "2026-10-10", desc: "Pfaueninsel", time: "2:30pm – 5:30pm", location: "Pfaueninsel", detail: "Pack outing to Pfaueninsel. Time is subject to availability; check pack communications for confirmation." },
-    { date: "2026-11-15", desc: "AlliiertenMuseum", time: "10:30am – 12:30pm", location: "AlliiertenMuseum", detail: "Pack visit to the AlliiertenMuseum. Time is subject to availability; check pack communications for confirmation." },
-    { date: "2026-12-05", desc: "Food Drive and Christmas Party", time: "2pm – 6pm", location: "TBD", detail: "Pack food drive and Christmas party. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2026-10-10", desc: "Pfaueninsel", time: "2:30pm – 4:30pm", location: "Pfaueninsel", detail: "Pack outing to Pfaueninsel. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2026-11-07", desc: "Church Clean-up with Troop", time: "10am – 1pm", location: "Church (details TBD)", detail: "Pack church clean-up with the troop. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2026-12-05", desc: "Food Drive and Christmas Party", time: "2pm – 5pm", location: "TBD", detail: "Pack food drive and Christmas party. Time is subject to availability; check pack communications for confirmation." },
     { date: "2027-01-09", desc: "Pinewood Derby Pit Stop", time: "2pm – 4pm", location: "TBD", detail: "Pinewood Derby pit stop for car checks and preparation. Time is subject to availability; check pack communications for confirmation." },
-    { date: "2027-02-13", desc: "Pinewood Derby", time: "1pm – 5pm", location: "TBD", detail: "Pinewood Derby race day. Time is subject to availability; check pack communications for confirmation." },
-    { date: "2027-03-13", desc: "Blue and Gold Dinner", time: "4pm – 6pm", location: "TBD", detail: "Pack Blue and Gold dinner. Time is subject to availability; check pack communications for confirmation." },
-    { date: "2027-04-18", desc: "Service Project", time: "TBD", location: "TBD", detail: "Pack service project. Details will be announced in pack communications." },
-    { date: "2027-06-19", desc: "Year-End, Crossover, and Rank Ceremony", time: "4pm – 6pm", location: "TBD", detail: "Year-end celebration, crossover, and rank ceremony. Time is subject to availability; check pack communications for confirmation." }
+    { date: "2027-02-13", desc: "Pinewood Derby", time: "2pm – 5pm", location: "TBD", detail: "Pinewood Derby race day. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2027-02-27", desc: "Blue and Gold Dinner", time: "4pm – 6pm", location: "TBD", detail: "Pack Blue and Gold dinner. Time is subject to availability; check pack communications for confirmation." },
+    { date: "2027-04-18", desc: "Safety / Protection (TBD)", time: "TBD", location: "TBD", detail: "Tentative safety / protection activity. Activity, time, and location are to be confirmed in pack communications." },
+    { date: "2027-06-19", desc: "Year-End, Crossover, and Rank Ceremony", time: "4pm – 6pm", location: "TBD", detail: "Year-end celebration, crossover, and rank ceremony. Time is subject to availability; check pack communications for confirmation." },
+
+    { date: "2026-08-25", desc: "Committee Meeting", time: "9pm", location: "TBD", detail: "Pack committee meeting. Check pack communications for location and joining details." },
+    { date: "2026-09-25", desc: "Committee Meeting and Potluck", time: "6pm – 8pm", location: "TBD", detail: "In-person pack committee meeting and potluck. Check pack communications for the location." },
+    { date: "2026-11-10", desc: "Committee Meeting", time: "8:30pm", location: "TBD", detail: "Pack committee meeting. Check pack communications for location and joining details." },
+    { date: "2026-11-24", desc: "Committee Meeting", time: "8:30pm", location: "TBD", detail: "Pack committee meeting. Check pack communications for location and joining details." },
+    { date: "2026-12-11", desc: "Committee Meeting and Potluck", time: "6pm – 8pm", location: "TBD", detail: "In-person pack committee meeting and potluck. Check pack communications for the location." },
+    { date: "2027-01-26", desc: "Committee Meeting", time: "8:30pm", location: "TBD", detail: "Pack committee meeting. Check pack communications for location and joining details." },
+    { date: "2027-02-16", desc: "Committee Meeting", time: "8:30pm", location: "TBD", detail: "Pack committee meeting. Check pack communications for location and joining details." },
+    { date: "2027-04-09", desc: "Committee Meeting and Potluck", time: "6pm – 8pm", location: "TBD", detail: "In-person pack committee meeting and potluck. Check pack communications for the location." },
+    { date: "2027-06-01", desc: "Committee Meeting", time: "8:30pm", location: "TBD", detail: "Pack committee meeting. Check pack communications for location and joining details." }
 ];
 
 // --- Helper Functions ---
