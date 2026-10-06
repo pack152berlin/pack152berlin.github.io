@@ -8,7 +8,29 @@ permalink: /calendar/
 
 Den meetings start at **4:30pm**. Pack meeting times are subject to venue availability and may change; please check pack communications for confirmation.
 
+<p><button type="button" id="downloadCalendar" class="calendar-download">Download Calendar (.ics)</button></p>
+
+Import all 2026–2027 events, including committee meetings, into Apple Calendar, Google Calendar, or Outlook. Times use Berlin time. Events with a TBD time appear as all-day placeholders. This is a one-time import; later schedule changes will not update automatically.
+
 <style>
+.calendar-download {
+    padding: 0.7rem 1.1rem;
+    border: 2px solid #0055a4;
+    border-radius: 8px;
+    background: #0055a4;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+.calendar-download:hover {
+    background: #003366;
+    border-color: #003366;
+}
+.calendar-download:focus-visible {
+    outline: 3px solid #ffd100;
+    outline-offset: 3px;
+}
 .calendar-container {
     width: 100%;
     max-width: 100%;
@@ -118,7 +140,9 @@ Den meetings start at **4:30pm**. Pack meeting times are subject to venue availa
     </div>
 </div>
 
-<script>
+<script type="module">
+import { createCalendar } from "{{ '/assets/js/calendar-export.js' | relative_url }}";
+
 // --- Event Data ---
 const events = [
     { date: "2026-08-25", desc: "Den Meeting", time: "4:30pm", location: "JFKS Large Aula", detail: "Regular den meeting. Scouts will work on advancement, learn new skills, and take part in age-appropriate activities." },
@@ -168,6 +192,18 @@ const events = [
     { date: "2027-04-09", desc: "Committee Meeting and Potluck", time: "6pm – 8pm", location: "TBD", detail: "In-person pack committee meeting and potluck. Check pack communications for the location." },
     { date: "2027-06-01", desc: "Committee Meeting", time: "8:30pm", location: "TBD", detail: "Pack committee meeting. Check pack communications for location and joining details." }
 ];
+
+document.getElementById('downloadCalendar').addEventListener('click', () => {
+    const file = new Blob([createCalendar(events)], { type: 'text/calendar;charset=utf-8' });
+    const url = URL.createObjectURL(file);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'pack152-calendar-2026-2027.ics';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+});
 
 // --- Helper Functions ---
 function parseEvents(events) {
