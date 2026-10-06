@@ -8,10 +8,6 @@ permalink: /calendar/
 
 Den meetings start at **4:30pm**. Pack meeting times are subject to venue availability and may change; please check pack communications for confirmation.
 
-<p><button type="button" id="downloadCalendar" class="calendar-download">Download Calendar (.ics)</button></p>
-
-Import all 2026–2027 events, including committee meetings, into Apple Calendar, Google Calendar, or Outlook. Times use Berlin time. Events with a TBD time appear as all-day placeholders. This is a one-time import; later schedule changes will not update automatically.
-
 <style>
 .calendar-download {
     padding: 0.7rem 1.1rem;
@@ -139,6 +135,10 @@ Import all 2026–2027 events, including committee meetings, into Apple Calendar
         </table>
     </div>
 </div>
+
+<p><button type="button" id="downloadCalendar" class="calendar-download">Download Calendar (.ics)</button></p>
+
+Import all 2026–2027 events, including committee meetings, into Apple Calendar, Google Calendar, or Outlook. Times use Berlin time. Events with a TBD time appear as all-day placeholders. This is a one-time import; later schedule changes will not update automatically.
 
 <script type="module">
 import { createCalendar } from "{{ '/assets/js/calendar-export.js' | relative_url }}";
